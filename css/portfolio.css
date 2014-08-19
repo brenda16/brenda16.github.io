@@ -2,7 +2,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family:"Tahoma, Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
     background-color: #f3f3f3;
 }
@@ -20,7 +20,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Cursive, Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -63,7 +63,7 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Tahoma, Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #000;
 }
 
@@ -177,7 +177,7 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #fff;
+    border: 2px solid #A9D6C4;
     border-radius: 35px;
     font-size: 40px;
     color: #fff;
@@ -190,7 +190,7 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
+    color: #31786D;
     background: rgba(255,255,255,.1);
 }
 
@@ -254,28 +254,36 @@ a:focus {
     width: 100%;
     height:auto;
     padding: 0;
-    color: #fff;
+    color: #B14749;
     background: url(../img/computertable.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
 
+}
+div div div h2 p{
+  color: #348C34
+  font-family: Tahoma;
+  }
 .about-section {
     width:100%;
     height: auto;
     
 }
 
-#about , #contact{
-    color: #000;
+#about{
+  color:#006B47;
+} 
+
+#contact{
+    color: #D15542;
 }
 
 #about{
     padding:50px 0 100px 0;
-     background: #18bc9c;
+     background: #FFF;
 }
 
 @media(min-width:767px) {
@@ -345,13 +353,13 @@ footer p {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fcfcfc;
+    background: #ABF7E;
     background: rgba(255,255,255,.2);
 }
 
 ::selection {
     text-shadow: none;
-    background: #fcfcfc;
+    background: #ABF7EA;
     background: rgba(255,255,255,.2);
 }
 
